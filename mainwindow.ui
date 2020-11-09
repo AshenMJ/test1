@@ -26,36 +26,6 @@
     <property name="editable">
      <bool>false</bool>
     </property>
-    <item>
-     <property name="text">
-      <string>Mnożenie</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dodawanie </string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Odejmowanie</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Dzielenie </string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Potęgowanie</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Pierwiastkowanie</string>
-     </property>
-    </item>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
