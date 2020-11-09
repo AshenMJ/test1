@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include <QMessageBox>
 using namespace std;
 
 MainWindow::MainWindow(QWidget *parent)
@@ -61,3 +61,8 @@ MainWindow::~MainWindow(){delete ui;}
 
 
 
+
+void MainWindow::on_pushButton_clicked()
+{
+    QMessageBox::information(this,"wybor dzialania",ui->comboBox->currentText());
+}
